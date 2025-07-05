@@ -1,74 +1,57 @@
-# 🧠 Titanic Survival Prediction Using Machine Learning
+# 🚢 Titanic Survival Prediction Using Machine Learning
 
-**🗓 Duration:** April 2025  
-**🎯 Goal:** To gain hands-on experience in artificial intelligence (AI) and machine learning (ML) by building a predictive model and deploying it using **Streamlit**.
+**📆 Duration:** April 2025  
+**🎯 Purpose:** The aim of this project is to apply core concepts of Machine Learning to build a predictive model that determines whether a passenger on the Titanic would have survived based on historical data. It also includes a deployed **Streamlit web app** for interactive predictions.
 
 ---
 
 ## 📌 Project Description
 
-This project uses the Titanic dataset to predict passenger survival outcomes based on features such as age, sex, fare, and class. It applies fundamental machine learning techniques for classification and is intended to build experience in:
+This project uses a dataset from the Kaggle Titanic competition to train a classification model that predicts survival outcomes. The project workflow includes:
 
-- Data preprocessing and visualization  
-- Model training and evaluation  
-- Web deployment using **Streamlit**
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Model training and evaluation
+- Deployment of a Streamlit app
 
----
-
-## 🧠 Technologies Used
-
-- Python  
-- Pandas & NumPy  
-- Scikit-learn  
-- Matplotlib & Seaborn  
-- Streamlit (for deployment)  
-- Jupyter Notebook
+The project is intended as a learning experience to enhance understanding of machine learning pipelines, feature handling, and web app deployment.
 
 ---
 
-## 🚀 Deployment
+## ⚙️ Technologies and Tools
 
-The project has been deployed using **Streamlit**.  
-🔗 **Live App:** [View the Titanic Survival Prediction App](https://your-streamlit-app-link)
-
-> _(Replace `https://your-streamlit-app-link` with your actual Streamlit deployment link.)_
-
----
-
-## 📁 File Structure
-
-```
-├── titanic_model.ipynb          # Jupyter notebook for EDA, training & evaluation
-├── titanic_predictor.py         # Streamlit app script
-├── model.pkl                    # Trained model file
-├── requirements.txt             # Python dependencies
-└── README.md
-```
+| Category        | Tools/Frameworks                      |
+|----------------|----------------------------------------|
+| Programming     | Python                                |
+| Data Handling   | Pandas, NumPy                         |
+| Visualization   | Matplotlib, Seaborn                   |
+| Machine Learning| Scikit-learn                          |
+| Deployment      | Streamlit                             |
 
 ---
 
-## 📝 How to Run Locally
+## 🧠 Machine Learning Model
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/titanic-survival-ml.git
-   cd titanic-survival-ml
-   ```
+The model used is **Logistic Regression**, selected for its simplicity and interpretability. Other models like Random Forest and K-Nearest Neighbors were also tested during experimentation.
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the app:
-   ```bash
-   streamlit run titanic_predictor.py
-   ```
+### Features Used:
+- Passenger Class (`Pclass`)
+- Sex (`Sex`)
+- Age (`Age`)
+- Fare (`Fare`)
+- Number of siblings/spouses aboard (`SibSp`)
+- Number of parents/children aboard (`Parch`)
+- Embarked Port (`Embarked`)
 
 ---
 
-## 👤 Author
+## 🌐 Live Demo
 
-**Wakeel Ahmed**  
-_Student of Electrical Engineering, Sukkur IBA University_  
-📧 wakeel.email@example.com
+You can access the deployed Streamlit application using the link below:
+
+🔗 **[Titanic Survival Prediction App](https://titanic-survival-prediction-ml-fmdtdzra8xpyutwbw8dycg.streamlit.app/)**
+
+The app allows users to enter custom values for features like age, gender, and class to receive real-time predictions on survival probability.
+
+---
