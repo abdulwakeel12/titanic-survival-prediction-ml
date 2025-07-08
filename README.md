@@ -52,6 +52,10 @@ You can access the deployed Streamlit application using the link below:
 
 🔗 **[Titanic Survival Prediction App](https://titanic-survival-prediction-ml-fmdtdzra8xpyutwbw8dycg.streamlit.app/)**
 
+### Watch the video demo below:
+
+🔗 **[Watch the YouTube video here](https://www.youtube.com/watch?v=W20jOdeTSzI)**
+
 The app allows users to enter custom values for features like age, gender, and class to receive real-time predictions on survival probability.
 
 ---
